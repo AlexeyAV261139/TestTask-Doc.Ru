@@ -12,7 +12,7 @@ public class Task1
             : GetOneDigitSum(sum);
     }
 
-    public int SumOfTheDigitsInTheNumber(int number)
+    private int SumOfTheDigitsInTheNumber(int number)
         => number == 0
         ? 0
         : number % 10 + SumOfTheDigitsInTheNumber(number / 10);

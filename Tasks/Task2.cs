@@ -2,10 +2,10 @@
 
 public class Task2
 {
-    public Dictionary<Nominals, int> GetMinimalCoinCount(float cents)    
-        => GetMinimalCoinCount((int)cents);
+    public Dictionary<Nominals, int> GetCoins(float cents)    
+        => GetCoins((int)cents);
 
-    public Dictionary<Nominals, int> GetMinimalCoinCount(int cents)
+    public Dictionary<Nominals, int> GetCoins(int cents)
     {
         var coins = new Dictionary<Nominals, int>();
         
