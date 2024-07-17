@@ -1,3 +1,5 @@
+using Tasks.Tasks;
+
 namespace TaskTests;
 
 public class Task1Tests

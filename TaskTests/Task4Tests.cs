@@ -1,4 +1,6 @@
-﻿namespace TaskTests;
+﻿using Tasks.Tasks;
+
+namespace TaskTests;
 
 public class Task4Tests
 {

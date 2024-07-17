@@ -1,7 +1,7 @@
-﻿namespace Tasks;
+﻿namespace Tasks.Tasks;
 
 public class Task5
-{    
+{
     public int ReturnFiveVariantA()
     {
         char[] array =

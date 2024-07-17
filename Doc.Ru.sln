@@ -5,7 +5,23 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks", "Tasks\Tasks.csproj", "{FE67DA1E-E687-4156-89A8-3DBAFD033C27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTests", "TaskTests\TaskTests.csproj", "{5ED8385E-C5AE-4CD3-B499-3557BA3FBC93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskTests", "TaskTests\TaskTests.csproj", "{5ED8385E-C5AE-4CD3-B499-3557BA3FBC93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProgrammingTasks", "ProgrammingTasks", "{83F3FDC6-1E16-4B3A-B53B-897E4ECA3B39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLTasks", "SQLTasks", "{FB8CF19F-D964-4520-9403-2CD69A2A19DD}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\SQL scripts\CreateAndFillTables.sql = ..\..\..\Desktop\SQL scripts\CreateAndFillTables.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tasks", "Tasks", "{BA7922C6-09C9-4D87-B881-18877B0CD079}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\SQL scripts\Task1.sql = ..\..\..\Desktop\SQL scripts\Task1.sql
+		..\..\..\Desktop\SQL scripts\Task2.sql = ..\..\..\Desktop\SQL scripts\Task2.sql
+		..\..\..\Desktop\SQL scripts\Task3.sql = ..\..\..\Desktop\SQL scripts\Task3.sql
+		..\..\..\Desktop\SQL scripts\Task4.sql = ..\..\..\Desktop\SQL scripts\Task4.sql
+		..\..\..\Desktop\SQL scripts\Task5.sql = ..\..\..\Desktop\SQL scripts\Task5.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +40,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE67DA1E-E687-4156-89A8-3DBAFD033C27} = {83F3FDC6-1E16-4B3A-B53B-897E4ECA3B39}
+		{5ED8385E-C5AE-4CD3-B499-3557BA3FBC93} = {83F3FDC6-1E16-4B3A-B53B-897E4ECA3B39}
+		{BA7922C6-09C9-4D87-B881-18877B0CD079} = {FB8CF19F-D964-4520-9403-2CD69A2A19DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10F77917-5CE8-470B-9916-AA9AF811CF98}

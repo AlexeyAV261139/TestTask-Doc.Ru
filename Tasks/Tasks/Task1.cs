@@ -1,4 +1,4 @@
-﻿namespace Tasks;
+﻿namespace Tasks.Tasks;
 
 public class Task1
 {
@@ -7,7 +7,7 @@ public class Task1
         int sum = SumOfTheDigitsInTheNumber(number);
         Console.WriteLine(sum);
 
-        return (sum / 10 == 0)
+        return sum / 10 == 0
             ? sum
             : GetOneDigitSum(sum);
     }
