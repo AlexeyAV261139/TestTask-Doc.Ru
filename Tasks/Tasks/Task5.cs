@@ -1,4 +1,4 @@
-﻿namespace Tasks.Tasks;
+﻿namespace ProgrammingTasks.Tasks;
 
 public class Task5
 {

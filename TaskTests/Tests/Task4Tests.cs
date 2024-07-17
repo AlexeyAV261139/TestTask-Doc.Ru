@@ -1,6 +1,6 @@
-﻿using Tasks.Tasks;
+﻿using ProgrammingTasks.Tasks;
 
-namespace TaskTests;
+namespace ProgrammingTasksTests.Tests;
 
 public class Task4Tests
 {

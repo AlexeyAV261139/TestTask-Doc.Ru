@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tasks.Tasks;
+namespace ProgrammingTasks.Tasks;
 
 public class Task4
 {

@@ -1,7 +1,7 @@
-﻿using System.Reflection;
-using Tasks.Tasks;
+﻿using ProgrammingTasks.Tasks;
+using System.Reflection;
 
-namespace TaskTests;
+namespace ProgrammingTasksTests.Tests;
 
 public class Task5Tests
 {
@@ -15,7 +15,7 @@ public class Task5Tests
 
         return methods
             .Where(x => x != null)
-            .Select(x => new[] {x});
+            .Select(x => new[] { x });
     }
 
     [Theory]

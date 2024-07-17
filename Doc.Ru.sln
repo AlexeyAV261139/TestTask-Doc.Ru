@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammingTasks", "Tasks\P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammingTasksTests", "TaskTests\ProgrammingTasksTests.csproj", "{5ED8385E-C5AE-4CD3-B499-3557BA3FBC93}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQlTasks", "SQlTasks\SQlTasks.sqlproj", "{91FE0B3B-925C-489D-8477-D1FCA399C277}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLTasks", "SQLTasks\SQLTasks.csproj", "{52796074-2D1A-4AB8-9F01-7D53AAB43498}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +23,10 @@ Global
 		{5ED8385E-C5AE-4CD3-B499-3557BA3FBC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ED8385E-C5AE-4CD3-B499-3557BA3FBC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ED8385E-C5AE-4CD3-B499-3557BA3FBC93}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91FE0B3B-925C-489D-8477-D1FCA399C277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91FE0B3B-925C-489D-8477-D1FCA399C277}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91FE0B3B-925C-489D-8477-D1FCA399C277}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{91FE0B3B-925C-489D-8477-D1FCA399C277}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91FE0B3B-925C-489D-8477-D1FCA399C277}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91FE0B3B-925C-489D-8477-D1FCA399C277}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{52796074-2D1A-4AB8-9F01-7D53AAB43498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52796074-2D1A-4AB8-9F01-7D53AAB43498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52796074-2D1A-4AB8-9F01-7D53AAB43498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52796074-2D1A-4AB8-9F01-7D53AAB43498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
